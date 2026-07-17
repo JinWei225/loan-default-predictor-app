@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Loan Default Risk Predictor")
 st.write("Enter applicant details to assess default risk.")
 
-API_URL = "https://angjinwei.app.n8n.cloud/webhook/loan-default-risk-predictor"
+API_URL = "https://drinking-groundwater-atm-seattle.trycloudflare.com/webhook/loan-default-risk-predictor"
 
 revolving_util = st.slider("Revolving Utilization of Unsecured Lines", 0.0, 1.5, 0.5)
 age = st.number_input("Age", min_value=18, max_value=110, value=40)
